@@ -1,0 +1,1007 @@
+/* MEDIA QUERIES */
+/* 4k 2560px Size */
+@media screen and (min-width: 2560px) {
+ /* Header */
+ .menu-btn {
+  top: 1.5%;
+ }
+ .nav-bar nav-bar-ul.show{
+  transform: translateY(55px);
+ }
+ .toggler {
+  top: 1.4%;
+  right: 1.5%;
+ }
+ /* Main */
+ .main-section-div {
+  margin: 396px auto;
+ }
+ .article1-section1-p1 {
+  font-size: 34px;
+ }
+ .article1-section1-p2 {
+  font-size: 34px;
+ }
+ .article1-section2,
+ .article2-section2,
+ .article3-section2 {
+  width: 85%;
+ }
+ /* Formulario */
+ .formulario {
+  width: 60%;
+ }
+ .formulario_input {
+  height: 50px;
+  font-size: 22px;
+  border: 3px solid #000;
+ }
+ ::placeholder {
+  font-size: 18px;
+ }
+ .input_mensaje {
+  height: 150px;
+ }
+ .formulario_input_error {
+  font-size: 16px;
+ }
+ .formulario_mensaje_obligatorio {
+  font-size: 22px;
+ }
+ .flecha-arriba {
+  top: 88.5%;
+ }
+}
+/* Laptop-L 1440px */
+@media screen and (max-width: 1440px) {
+ /* Header */
+ .menu-btn {
+  top: 2%;
+ }
+ .nav-bar ul.nav-bar-ul.show{
+  transform: translateY(56px);
+ }
+ .toggler {
+  top: 2%;
+ }
+ /* Main */
+ .main-section-div{
+  margin: 210px auto;
+ }
+ .logo {
+  width: 500px;
+  height: 275px;
+ }
+ .article1-section1-p1 {
+  font-size: 30px;
+  padding: 30px 100px;
+ }
+ /* Comentarios de Facebook */
+ .li-comentario-facebook {
+  padding: 25px 0px;
+ }
+ /* Slider de Logos */
+ .logo1 {
+  width: 65%;
+  padding: 0px 0px;
+ }
+ .logo3,
+ .logo6 {
+  width: 40%;
+ }
+ .logo4 {
+  width: 125%;
+  padding: 0px 0px 0px 0px;
+ }
+ .logo5 {
+  width: 150%;
+  padding: 0px 30px 0px 0px;
+ }
+ .logo2,
+ .logo7,
+ .logo8 {
+  width: 100%;
+ }
+ .logo9 {
+  width: 125%;
+ }
+ /* Formulario */
+ .formulario {
+  width: 60%;
+ }
+ .flecha-arriba {
+  top: 83.5%;
+ }
+}
+/* Device Nest Hub Max - 1280px */
+@media screen and (max-width: 1280px) {
+ /* Main */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ .logo {
+  width: 400px;
+  height: 215px;
+ }
+ .article-div-textos-i h2,
+ .article-div-textos h2 {
+  font-size: 56px;
+ }
+ /* Formulario */
+ .formulario {
+  width: 60%;
+ }
+}
+/* Laptop 1024px */
+@media screen and (max-width: 1024px) {
+ /* Main */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ .section-h1-1 {
+  width: 80%;
+ }
+ .section-h1 {
+  width: 80%;
+ }
+ /* Primera Seccion */
+ .ul-iconos {
+  gap: 0px;
+  width: 100%;
+  padding: 0px;
+ }
+ .article1-section1-p1 {
+  padding: 30px;
+  font-size: 27px;
+ }
+ .article1-section1-p2 {
+  padding: 60px;
+  font-size: 27px;
+ }
+ .change-color.black-letters {
+  display: none;
+ }
+ .change-color.black-letters.change-color.black-letters.mediaquery1024px {
+  display: inherit;
+ }
+ .article-div-textos-i h2,
+ .article-div-textos-i p,
+ .article-div-textos h2,
+ .article-div-textos p {
+  text-align: center;
+ }
+ /* Comentarios de Facebook */
+ .section-facebook-h2 {
+  padding: 15px;
+  margin: 150px auto 25px auto;
+ }
+ /* Slider De Logos */
+ hr {
+  display: none;
+ }
+ .color-de-fondo-slider-logos {
+  display: none;
+ }
+ /* Formulario */
+ .formulario_btn {
+  width: 30%;
+ }
+}
+/* Device Surface Pro 7 - 912px */
+@media screen and (max-width: 912px) {
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ /* Comentarios de Facebook */
+ .section-facebook-h2 {
+  font-size: 32px;
+  padding: 15px 0px;
+  margin: 150px auto 25px auto;
+ }
+ .li-comentario-facebook {
+  padding: 0px;
+ }
+ /* Formulario */
+ .formulario_btn {
+  width: 40%;
+ }
+ /* Horarios */
+ .h1-horarios {
+  font-size: 24px;
+ }
+ .p-horarios {
+  width: 100%;
+  font-size: 24px;
+ }
+ /* Redes */
+ .contenedor {
+  padding: 5px;
+ }
+ .contenedor .btn {
+  margin: 0px;
+ }
+ .flecha-arriba {
+  display: none;
+ }
+}
+/* Device iPad Air - 820px */
+@media screen and (max-width: 820px) {
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ /* Comentarios de Facebook */
+ .section-facebook-h2 {
+  font-size: 35px;
+ }
+ .li-comentario-facebook {
+  padding: 0px;
+ }
+ /* Formulario */
+ .formulario {
+  width: 70%;
+ }
+ /* Horarios */
+ .h1-horarios {
+  font-size: 22px;
+ }
+ .p-horarios {
+  width: 100%;
+  font-size: 22px;
+ }
+}
+/* Tablet - 768px */
+@media screen and (max-width: 768px) {
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ .ul-iconos {
+  display: none;
+ }
+ .article1-section1-p1 {
+  padding: 25px;
+  font-size: 24px;
+  margin: auto 0px;
+ }
+ .article1-section1-p2 {
+  padding: 50px;
+  font-size: 24px;
+  margin: auto 0px;
+ }
+ /* Comentarios de Facebook */
+ .section-facebook-h2 {
+  font-size: 35px;
+  font-weight: 400;
+  padding: 15px 0px;
+  margin: 150px auto 25px auto;
+ }
+ .li-comentario-facebook {
+  padding: 0px;
+ }
+ /* Redes */
+ .contenedor {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+ }
+ .contenedor .btn {
+  margin: 10px;
+ }
+}
+/* Device Galaxy Tab S4 - 712px */
+@media screen and (max-width: 712px) {
+ /* Header */
+ .toggler {
+  left: 89%;
+ }
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ /* Redes */
+ .contenedor {
+  padding: 0px;
+ }
+ .contenedor .btn {
+  margin: 10px 5px;
+ }
+}
+/* Device Microsoft Lumia 550 - 640px */
+@media screen and (max-width: 640px) {
+ /* Header */
+ .toggler {
+  top: 2%;
+ }
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ .article-div-textos-i h2,
+ .article-div-textos h2 {
+  font-size: 55px;
+ }
+ /* Comentarios de Facebook */
+ .section-facebook-h2 {
+  font-size: 28px;
+ }
+ /* Horarios */
+ .h1-horarios {
+  font-size: 20px;
+ }
+ .p-horarios {
+  font-size: 20px;
+ }
+ /* Redes */
+ .contenedor .btn {
+  margin: 10px 5px;
+ }
+}
+/* Device BlackBerry PlayBook - 600px */
+@media screen and (max-width: 600px) {
+ /* Header */
+ .nav-bar-li i{
+  font-size: 20px;
+ }
+ .nav-bar-a{
+  font-size: 22px;
+ }
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ .change-color.black-letters {
+  display: none;
+ }
+ .change-color.black-letters.change-color.black-letters.mediaquery1024px {
+  display: inherit;
+ }
+ .article-div-textos-i h2,
+ .article-div-textos-i p,
+ .article-div-textos h2,
+ .article-div-textos p {
+  margin: auto;
+  padding: 25px 5px;
+  text-align: center;
+ }
+ /* Redes */
+ .contenedor {
+  padding: 0px;
+ }
+ /* Comentarios de Facebook */
+ .section-facebook-h2 {
+  font-size: 28px;
+ }
+}
+/* Custom Media Query - 580px */
+@media screen and (max-width: 580px) {
+ /* Header */
+ .toggler {
+  left: 87%;
+ }
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ /* Copyright */
+ .copyright {
+  gap: 10px;
+  font-size: 18px;
+ }
+ .diseñador-web-link {
+  font-size: 18px;
+ }
+}
+/* Custom Media Query - 565px */
+@media screen and (max-width: 565px) {
+ /* Primera Section */
+ .main-section-div{
+  margin: 228px auto;
+ }
+}
+/* Device Surface Duo - 540px */
+@media screen and (max-width: 540px) {
+ /* Primera Section */
+ .main-section-div{
+  margin: 228px auto;
+ }
+ .section-h1-1 {
+  width: 75%;
+  border-radius: 1000px;
+ }
+ .section-h1 {
+  width: 75%;
+  margin: 0px auto;
+  padding: 5px 0px;
+  border-radius: 1000px;
+ }
+ /* Segunda Section */
+ .article-div-textos-i h2,
+ .article-div-textos h2 {
+  padding: 25px;
+  font-size: 45px;
+ }
+ /* Comentarios de Facebook */
+ .section-facebook-h2 {
+  font-size: 26px;
+ }
+ .formulario {
+  width: 80%;
+ }
+ /* Horarios */
+ .h1-horarios,
+ .p-horarios {
+  width: 100%;
+  font-size: 16px;
+ }
+ /* Copyright */
+ .copyright {
+  gap: 10px;
+  font-size: 18px;
+ }
+ .diseñador-web-link {
+  font-size: 18px;
+ }
+}
+/* Custom Media Query - 518px */
+@media screen and (max-width: 518px) {
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 228px auto;
+ }
+ /* Redes */
+ .contenedor .btn i{
+  font-size: 35px;
+ }
+ /* Copyright */
+ .copyright {
+  gap: 5px;
+  font-size: 16px;
+ }
+ .diseñador-web-link {
+  font-size: 16px;
+ }
+}
+/* Device Nokia N9 - 480px x 854px */
+@media screen and (max-width: 480px) {
+ /* Header */
+ .nav-bar-li i{
+  font-size: 18px;
+ }
+ .nav-bar-a{
+  font-size: 20px;
+ }
+ .nav-bar ul.nav-bar-ul.show{
+  transform: translateY(55px);
+ }
+ .menu-btn {
+  top: 2.1%;
+ }
+ .toggler {
+  left: 82.5%;
+  display: block;
+ }
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 232px auto;
+ }
+ .ul-iconos {
+  display: none;
+ }
+ .section-h1-1 {
+  font-size: 28px;
+ }
+ .article1-section1-p1 {
+  font-size: 20px;
+  margin: auto 0px;
+  padding: 25px 10px;
+ }
+ .article1-section1-p2 {
+  font-size: 20px;
+  margin: auto 0px;
+  padding: 25px 10px;
+ }
+ /* Segunda Section */
+ .article1-section2,
+ .article2-section2,
+ .article3-section2 {
+  gap: 0px;
+  width: 100%;
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+ }
+ .article-div-textos-i,
+ .article-div-textos {
+  margin: 20px 0px;
+ }
+ .article-div-textos-i h2,
+ .article-div-textos h2 {
+  text-shadow: 2px 2px 2px black;
+ }
+ .blackmode .article-div-textos-i h2,
+ .blackmode .article-div-textos h2 {
+  text-shadow: 2px 2px 2px white;
+ }
+ .article-div-textos h2:hover,
+ .article-div-textos-i h2:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.3s linear;
+ }
+ .blackmode .article-div-textos h2,
+ .blackmode .article-div-textos-i h2 {
+  text-shadow: 2px 2px 2px white;
+ }
+ .article-div-textos-i {
+  font-size: 20px;
+  text-align: left;
+ }
+ .article-div-textos-i h2,
+ .article-div-textos-i p,
+ .article-div-textos h2,
+ .article-div-textos p {
+  margin: auto;
+  padding: 25px;
+ }
+ .article-div-textos {
+  font-size: 20px;
+  text-align: right;
+ }
+ .article-div-textos-i h2,
+ .article-div-textos h2 {
+  font-size: 40px;
+ }
+ /* Slider Logos */
+ hr {
+  display: none;
+ }
+ .color-de-fondo-slider-logos {
+  display: none;
+ }
+ /* Section Facebook */
+ .section-facebook-h2 {
+  font-size: 18px;
+  margin: 0px auto 25px auto;
+ }
+ .color-de-fondo-comentarios-facebook {
+  margin: 0px auto;
+  background-color: grey;
+ }
+ .section-comentarios-facebook {
+  width: 100%;
+  overflow: hidden;
+  margin: 0px auto 0px;
+ }
+ .ul-comentarios-facebook {
+  width: 700%;
+  padding: 0px;
+  display: flex;
+  margin: 0px auto;
+  align-items: center;
+ }
+ .li-comentario-facebook {
+  width: 100%;
+  display: block;
+  font-size: 20px;
+  margin: 0px auto;
+  padding: 5px 0px;
+  list-style: none;
+  text-align: center;
+ }
+ .li-comentario-facebook h3 {
+  font-size: 40px;
+ }
+ .li-comentario-facebook h3,
+ .li-comentario-facebook p {
+  padding: 15px;
+  color: white;
+  margin: 0px auto;
+  text-shadow: 2px 2px 2px black;
+ }
+ /* Formulario */
+ .formulario_grupo_input{
+  padding: 0px;
+  grid-template-columns: 1fr;
+ }
+ .icono_input{
+  display: none;
+ }
+ /* Horarios */
+ .section-horarios {
+  margin: auto;
+  padding: 0px;
+ }
+ .h1-horarios {
+  margin: auto;
+  display: block;
+  font-size: 28px;
+  text-align: center;
+  padding: 15px 0px 0px 0px;
+ }
+ .div-p-horarios {
+  display: block;
+ }
+ .p-horarios {
+  width: 100%;
+  margin: auto;
+  display: block;
+  font-size: 15px;
+  padding: 15px 0px;
+  text-align: center;
+ }
+ /* Flecha Arriba */
+ .flecha-arriba {
+  display: none;
+ }
+ /* Redes */
+ .contenedor .btn {
+  width: 50px;
+  height: 50px;
+ }
+ .contenedor .btn i {
+  font-size: 25px;
+  line-height: 35px;
+ }
+ .contenedor .btn::before {
+  display: none;
+ }
+ .contenedor .btn:hover i {
+  transform: none;
+ }
+ .contenedor .btn:hover::before {
+  top: inherit;
+  left: inherit;
+  animation: none;
+ }
+ /* Copyright */
+ .copyright {
+  font-size: 16px;
+ }
+ .diseñador-web-link {
+  font-size: 16px;
+ }
+}
+/* Custom Media Query - 457px */
+@media screen and (max-width: 457px) {
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 232px auto;
+ }
+ /* Copyright */
+ .copyright {
+  gap: 5px;
+  font-size: 14px;
+ }
+ .diseñador-web-link {
+  font-size: 14px;
+ }
+}
+/* Device Móvile L - 425px */
+@media screen and (max-width: 425px) {
+ /* Header */
+ .nav-bar-li i{
+  font-size: 16px;
+ }
+ .nav-bar-a{
+  font-size: 18px;
+ }
+ .toggler {
+  left: 83%;
+ }
+ /* Main */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ .logo{
+  width: 380px;
+  height: 200px;
+ }
+ /* Section Facebook */
+ .section-facebook-h2 {
+  margin: 0px;
+  font-size: 28px;
+ }
+ /* Horarios */
+ .h1-horarios {
+  font-size: 20px;
+ }
+ .div-p-horarios {
+  display: block;
+ }
+ .p-horarios {
+  font-size: 14px;
+ }
+ /* Redes */
+ .contenedor .btn i {
+  line-height: 40px;
+ }
+ /* Copyright */
+ .copyright {
+  font-size: 14px;
+ }
+ .diseñador-web-link {
+  font-size: 14px;
+ }
+}
+/* Custom Media Query - 400px */
+@media screen and (max-width: 400px) {
+ /* Primera Seccion */
+ .main-section-div{
+  margin: 240px auto;
+ }
+ /* Copyright */
+ .copyright {
+  font-size: 13px;
+ }
+ .diseñador-web-link {
+  font-size: 13px;
+ }
+}
+/* Device LG Optimus L70 - 384px x 640px*/
+@media screen and (max-width: 384px) {
+ /* Main */
+ .main-section-div{
+  margin: 252px auto;
+ }
+ .logo {
+  width: 275px;
+  height: 175px;
+ }
+ /* Primera Seccion */
+ .section-h1-1 {
+  width: 100%;
+  font-size: 28px;
+  margin: 0px auto;
+  padding: 5px 0px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 1000px;
+  background: linear-gradient(orange, rgb(255, 225, 0));
+ }
+ .article1-section1-p1 {
+  font-size: 20px;
+  margin: auto 0px;
+  padding: 25px 10px;
+ }
+ .article1-section1-p2 {
+  font-size: 20px;
+  margin: auto 0px;
+  padding: 25px 10px;
+ }
+ .section-h1 {
+  width: 100%;
+  margin: auto;
+  font-size: 28px;
+  padding: 5px 0px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 1000px;
+  background: linear-gradient(orange, rgb(255, 225, 0));
+ }
+ /* Segunda Section */
+ .article1-section2,
+ .article2-section2,
+ .article3-section2 {
+  gap: 0px;
+  width: 100%;
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+ }
+ .article-div-textos-i,
+ .article-div-textos {
+  margin: 20px 0px;
+ }
+ .article-div-textos-i h2,
+ .article-div-textos h2 {
+  text-shadow: 2px 2px 2px black;
+ }
+ .blackmode .article-div-textos-i h2,
+ .blackmode .article-div-textos h2 {
+  text-shadow: 2px 2px 2px white;
+ }
+ .article-div-textos h2:hover,
+ .article-div-textos-i h2:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.3s linear;
+ }
+ .blackmode .article-div-textos h2,
+ .blackmode .article-div-textos-i h2 {
+  text-shadow: 2px 2px 2px white;
+ }
+ .article-div-textos-i {
+  font-size: 20px;
+  text-align: left;
+ }
+ .article-div-textos-i h2,
+ .article-div-textos-i p,
+ .article-div-textos h2,
+ .article-div-textos p {
+  margin: auto;
+  padding: 25px;
+ }
+ .article-div-textos {
+  font-size: 20px;
+  text-align: right;
+ }
+ .article-div-textos-i h2,
+ .article-div-textos h2 {
+  font-size: 40px;
+ }
+ /* Slider Logos */
+ hr {
+  display: none;
+ }
+ .color-de-fondo-slider-logos {
+  display: none;
+ }
+ /* Section Facebook */
+ .section-facebook-h2 {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 0px;
+  text-align: center;
+  margin: 0px auto 25px auto;
+ }
+ .color-de-fondo-comentarios-facebook {
+  margin: 0px auto;
+  background-color: grey;
+ }
+ .section-comentarios-facebook {
+  width: 100%;
+  overflow: hidden;
+  margin: 0px auto 0px;
+ }
+ .ul-comentarios-facebook {
+  width: 700%;
+  padding: 0px;
+  display: flex;
+  margin: 0px auto;
+  align-items: center;
+ }
+ .li-comentario-facebook {
+  width: 100%;
+  display: block;
+  font-size: 20px;
+  list-style: none;
+  padding: 5px 0px;
+  margin: 0px auto;
+  text-align: center;
+ }
+ .li-comentario-facebook h3 {
+  font-size: 40px;
+ }
+ .li-comentario-facebook h3,
+ .li-comentario-facebook p {
+  padding: 15px;
+  color: white;
+  margin: 0px auto;
+  text-shadow: 2px 2px 2px black;
+ }
+ /* Horarios */
+ .section-horarios {
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+ }
+ .h1-horarios {
+  font-size: 14px;
+ }
+ .p-horarios {
+  font-size: 12px;
+ }
+ /* Redes */
+ .contenedor .btn {
+  width: 45px;
+  height: 45px;
+ }
+ .contenedor .btn i {
+  font-size: 20px;
+  line-height: 32px;
+ }
+ /* Copyright */
+ .copyright {
+  gap: 5px;
+  font-size: 13px;
+ }
+ .diseñador-web-link {
+  font-size: 13px;
+ }
+}
+/* Device Móvile M - 375px */
+@media screen and (max-width: 375px) {
+ /* Header */
+ .toggler {
+  top: 2%;
+  right: 2%;
+ }
+ /* Main */
+ .main-section-div{
+  margin: 252px auto;
+ }
+ /* Primera Seccion */
+ .section-h1-1,
+ .section-h1 {
+  width: 75%;
+ }
+ /* Redes */
+ .contenedor .btn {
+  width: 45px;
+  height: 45px;
+ }
+ .contenedor .btn i {
+  font-size: 20px;
+  line-height: 32px;
+ }
+ /* Copyright */
+ .copyright {
+  font-size: 12px;
+ }
+ .diseñador-web-link {
+  font-size: 12px;
+ }
+}
+/* BlackBerry Z30 - 360px */
+@media screen and (max-width: 360px) {
+ /* Header */
+ .toggler {
+  left: 80%;
+  display: block;
+ }
+ /* Horarios */
+ .h1-horarios {
+  font-size: 16px;
+ }
+ .p-horarios {
+  font-size: 12px;
+ }
+ /* Redes */
+ .contenedor {
+  padding: 5px 0px;
+ }
+ .contenedor .btn {
+  margin: 5px 0px;
+ }
+ /* Copyright */
+ .copyright {
+  font-size: 12px;
+ }
+ .diseñador-web-link {
+  font-size: 12px;
+ }
+}
+/* Custom Media Query - 343px */
+@media screen and (max-width: 343px) {
+ /* Copyright */
+ .copyright {
+  font-size: 11px;
+ }
+ .diseñador-web-link {
+  font-size: 11px;
+ }
+}
+/* Device Móvile S - 320px */
+@media screen and (max-width: 320px) {
+ /* Header */
+ .toggler {
+  left: 80%;
+ }
+ /* Horarios */
+ .h1-horarios {
+  font-size: 18px;
+ }
+ .p-horarios {
+  font-size: 16px;
+ }
+ /* Redes */
+ .contenedor .btn {
+  margin: 5px 0px;
+ }
+ /* Copyright */
+ .copyright {
+  font-size: 11px;
+ }
+ .diseñador-web-link {
+  font-size: 11px;
+ }
+}

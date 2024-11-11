@@ -1,0 +1,101 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body {
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ font-family: 'Roboto', sans-serif;
+ background: url(../assets/icon/bg.webp) no-repeat center center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+h1 {
+ color: white;
+ font-weight: 700;
+ font-size: 2.5rem;
+}
+form {
+ width: 100%;
+ padding: 20px;
+ max-width: 500px;
+ border-radius: 10px;
+ background: #252525;
+}
+.form-group {
+ margin-bottom: 20px;
+}
+/* Botones Tabla */
+.go-back{
+ top: 2%;
+ left: 2%;
+ display: block;
+ cursor: pointer;
+ position: absolute;
+}
+.log-out{
+ top: 2%;
+ right: 2%;
+ display: block;
+ cursor: pointer;
+ position: absolute;
+}
+/* Botones */
+.btn-danger {
+ font-size: 1rem;
+ padding: 10px 20px;
+ border-radius: 10px;
+ border: solid black 2px;
+ background-color: #dc3545;
+}
+.btn-danger:hover {
+ border: solid white 2px;
+}
+.btn-primary {
+ font-size: 1rem;
+ padding: 10px 20px;
+ border-radius: 10px;
+ border: solid black 2px;
+ background-color: #007bff;
+}
+.btn-primary:hover {
+ border: solid white 2px;
+}
+.btn-success {
+ color: black;
+ font-size: 1rem;
+ padding: 10px 20px;
+ border-radius: 10px;
+ border: solid black 2px;
+ background-color: #4dff00;
+}
+.btn-success:hover {
+ border: solid white 2px;
+}
+/* Tabla */
+.table-container {
+ box-shadow: 0px 5px 25px 5px rgba(1, 1, 1, 1);
+}
+.table-container-login-register {
+ border-width: 2px;
+ border-style: solid;
+ border-color: white;
+}
+.table {
+ border-width: 1px;
+ border-style: solid;
+ border-color: white;
+}
+.table th, .table td{
+ border-width: 2px;
+ border-style: solid;
+ border-color: black;
+}
+.table td {
+ word-wrap: break-word;
+ word-break: break-all;
+ white-space: normal;
+ max-width: 150px;
+}

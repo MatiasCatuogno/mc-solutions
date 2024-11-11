@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+ <meta charset="UTF-8" />
+ <title>Login | M.C. Solutions</title>
+ <meta name="format-detection" content="telephone=no" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- Mobile Metas -->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Meta Info -->
+ <meta name="author" content="Matias Ezequiel Catuogno" />
+ <meta name="description" content="Somos M.C Solutions, Nos especializamos en todo ambiente tecnológico, desde Software y Hardware. Hasta reparaciones de equipos y creación de diseños digitales." />
+ <meta name="keywords" content="M.C. Solutions, computacion boulogne, mc solutions boulogne, boulogne computacion, boulogne reparacion de pc, soluciones informaticas boulogne, bouglone soluciones informaticas" />
+<!-- FavIcon -->
+ <link rel="icon" type="image/x-icon" href="../src/assets/favicon/favicon.ico" />
+<!-- Tipografía -->
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+<!-- Font Google "Be Vietnam" -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<!-- Bootstrap -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+<!-- Custom Css-->
+ <link rel="stylesheet" href="../src/styles/auth.css" />
+ <link rel="stylesheet" href="../src/styles/validate.css" />
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100">
+ <div class="text-white">
+  <h1 class="text-center">Login</h1>
+  <form action="../src/server/auth/admin/login.php" method="POST" id="form" class="form-container table-container table-container-login-register formulario">
+<!-- ID -->
+   <div class="form-group" id="grupo_id">
+    <input type="text" name="id" placeholder="ID" id="id" class="form-control formulario_input"/>
+    <p class="formulario_input_error">
+     El ID son solo números.
+    </p>
+   </div>
+<!-- PIN -->
+   <div class="form-group" id="grupo_pin">
+    <input type="text" name="pin" placeholder="PIN" id="pin" class="form-control formulario_input"/>
+    <p class="formulario_input_error">
+     El PIN debe contener entre 4 y 6 números.
+    </p>
+   </div>
+<!-- Nombre -->
+   <div class="form-group" id="grupo_nombre">
+    <input type="text" name="nombre" placeholder="Nombre" id="nombre" class="form-control formulario_input"/>
+    <p class="formulario_input_error">
+     El nombre solo pueden ser letras.
+    </p>
+   </div>
+<!-- Password -->
+   <div class="form-group" id="grupo_password">
+    <input type="password" name="password" placeholder="Password" id="password" class="form-control formulario_input"/>
+    <p class="formulario_input_error">
+     La contraseña puede tener caracteres especiales.
+    </p>
+   </div>
+<!-- Teléfono -->
+   <div class="form-group" id="grupo_telefono">
+    <input type="text" name="telefono" placeholder="Teléfono" id="telefono" class="form-control formulario_input"/>
+    <p class="formulario_input_error">
+     El teléfono puede contener código de área.
+    </p>
+   </div>
+<!-- Mail -->
+   <div class="form-group" id="grupo_mail">
+    <input type="text" name="mail" placeholder="Mail" id="mail" class="form-control formulario_input"/>
+    <p class="formulario_input_error">
+     Ingrese un mail válido.
+    </p>
+   </div>
+<!-- Mensaje -->
+   <div class="form-group" id="grupo_mensaje_error">
+     <p class="formulario_mensaje formulario_input" id="formulario_mensaje">
+      <i class="fas fa-exclamation-triangle"></i>
+      <b>Error:</b>
+      Por favor complete el formulario.
+     </p>
+   </div>
+   <div class="formulario_grupo" id="grupo_mensaje_correcto">
+    <p class="formulario_mensaje_correcto" id="formulario_mensaje_correcto">
+     El formulario ha sido enviado correctamente.
+    </p>
+   </div>
+<!-- Submit -->
+   <div class="form-group d-flex mb-0 justify-content-between">
+    <button type="submit" class="btn btn-primary fw-bold">Log In</button>
+    <a href="register.html" class="btn btn-danger fw-bold">Register</a>
+   </div>
+  </form>
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <script src="../src/javascript/validations/admin_validate.js"></script>
+</body>
+</html>

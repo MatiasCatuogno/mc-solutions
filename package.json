@@ -1,0 +1,21 @@
+{
+ "name": "m.c-solutions",
+ "version": "1.0.0",
+ "description": "m.c-solutions",
+ "main": "index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "keywords": [
+  "mcsolutions",
+  "MCSOLUTIONS",
+  "mc-solutions",
+  "MC-SOLUTIONS",
+  "computacion",
+  "boulogne",
+  "computacion",
+  "tecnologia"
+ ],
+ "author": "Matias Catuogno",
+ "license": "ISC"
+}
